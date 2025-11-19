@@ -1,3 +1,4 @@
+document.getElementById("button4").style.display = "none";
 document.getElementById("audio") = "none";
 let language = "english";
 let calculated = "no";
@@ -7,9 +8,11 @@ function changecolor() {
   calculated = "yes";
   setTimeout(() => {
     if (language == "english") {
-      document.getElementById("id1").innerHTML = "yes, noa is gay"
+      document.getElementById("id1").innerHTML = "yes, noa is gay";
+      document.getElementById("button4").style.display = "block";
     } else {
-      document.getElementById("id1").innerHTML = "ja, noa är bög"
+      document.getElementById("id1").innerHTML = "ja, noa är bög";
+      document.getElementById("button4").style.display = "block";
     }
   }, 1000);
 }
