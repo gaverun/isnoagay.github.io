@@ -15,6 +15,7 @@ function changecolor() {
 }
 function changelanguageenglish() {
   language = "english";
+  document.getElementById("audio").innerHTML = "i feel offended";
   document.getElementById("1").innerHTML = "is noa gay?";
   document.getElementById("button1").innerHTML = "calculate";
   if (calculated == "yes") {
@@ -26,6 +27,7 @@ function changelanguageenglish() {
 
 function changelanguageswedish() {
   language = "swedish";
+  document.getElementById("audio").innerHTML = "jag känner mig kränkt";
   document.getElementById("1").innerHTML = "är noa bög?";
   document.getElementById("button1").innerHTML = "räkna ut";
   if (calculated == "yes") {
