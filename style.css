@@ -1,10 +1,9 @@
 h1 {
   position: fixed;
-  top: 0%;
   left: 50%;
-  translate: -50%;
+  translate: -50% -100%;
 }
-button {
+#button1 {
   position: fixed;
   left: 50%;
   top: 10%;
@@ -15,5 +14,7 @@ h3 {
   left: 50%;
   top: 15%;
   translate: -50%;
-  color: white;
+}
+body {
+  background-image: url("https://i.ibb.co/4RCYCvNW/cringe100.png");
 }
