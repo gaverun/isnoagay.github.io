@@ -1,9 +1,8 @@
+document.getElementById("audio") = "none";
 let language = "english";
 let calculated = "no";
 document.getElementById("id1").style.display = "none";
 function changecolor() {
-  let audio = document.getElementById("audio")
-  audio.play()
   document.getElementById("id1").style.display = "block";
   calculated = "yes";
   setTimeout(() => {
@@ -34,4 +33,8 @@ function changelanguageswedish() {
   } else {
     document.getElementById("id1").innerHTML = "vänta...";
   }
+}
+function playsound() {
+  let audio = document.getElementById("audio")
+  audio.play()
 }
