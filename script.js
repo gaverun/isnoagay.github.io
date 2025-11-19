@@ -3,7 +3,6 @@ let language = "english";
 let calculated = "no";
 document.getElementById("id1").style.display = "none";
 function changecolor() {
-  audio.play();
   document.getElementById("id1").style.display = "block";
   calculated = "yes";
   setTimeout(() => {
