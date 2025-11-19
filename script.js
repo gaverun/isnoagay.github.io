@@ -1,5 +1,5 @@
 document.getElementById("button4").style.display = "none";
-document.getElementById("audio") = "none";
+document.getElementById("audio").style.display = "none";
 let language = "english";
 let calculated = "no";
 document.getElementById("id1").style.display = "none";
