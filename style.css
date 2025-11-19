@@ -19,3 +19,9 @@ h3 {
 body {
   background-image: url("https://i.ibb.co/4RCYCvNW/cringe100.png");
 }
+#button4 {
+  position: fixed;
+  left: 50%;
+  top: 20%;
+  translate: -50%;
+}
