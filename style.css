@@ -10,6 +10,7 @@ h1 {
   translate: -50%;
 }
 h3 {
+  color: white;
   position: fixed;
   left: 50%;
   top: 15%;
