@@ -1,4 +1,3 @@
-document.GetElementById("sound").play();
 let language = "english";
 let calculated = "no";
 document.getElementById("id1").style.display = "none";
