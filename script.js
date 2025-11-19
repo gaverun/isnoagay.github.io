@@ -2,7 +2,7 @@ let language = "english";
 let calculated = "no";
 document.getElementById("id1").style.display = "none";
 function changecolor() {
-  let audio = audio("no-dick_bOo1GdL.mp3");
+  let audio = document.getelementbyid("")
   audio.play()
   document.getElementById("id1").style.display = "block";
   calculated = "yes";
