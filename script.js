@@ -1,3 +1,4 @@
+document.getElementById("5").style.display = "none";
 document.getElementById("button4").style.display = "none";
 document.getElementById("audio").style.display = "none";
 let language = "english";
@@ -10,9 +11,11 @@ function changecolor() {
     if (language == "english") {
       document.getElementById("id1").innerHTML = "yes, noa is gay";
       document.getElementById("button4").style.display = "block";
+      document.getElementById("5").style.display = "block";
     } else {
       document.getElementById("id1").innerHTML = "ja, noa är bög";
       document.getElementById("button4").style.display = "block";
+      document.getElementById("5").style.display = "block";
     }
   }, 1000);
 }
