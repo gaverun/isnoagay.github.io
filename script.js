@@ -1,4 +1,4 @@
-document.getElementById("5").style.display = "none";
+document.getElementById("id5").style.display = "none";
 document.getElementById("button4").style.display = "none";
 document.getElementById("audio").style.display = "none";
 let language = "english";
@@ -41,7 +41,7 @@ function changelanguageswedish() {
   }
 }
 function playsound() {
-  document.getElementById("5").style.display = "block";
+  document.getElementById("id5").style.display = "block";
   let audio = document.getElementById("audio")
   audio.play()
 }
